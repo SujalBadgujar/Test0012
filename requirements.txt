@@ -4,7 +4,7 @@ scikit-learn==1.6.1
 PyPDF2==3.0.1
 nltk==3.8.1
 numpy
-
+transformers
 pandas
 python-multipart==0.0.6
 werkzeug==2.3.7
