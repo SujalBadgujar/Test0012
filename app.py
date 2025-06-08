@@ -159,4 +159,5 @@ def get_ai_score(text):
         return 0.0
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 5000))  # Render sets this env var
+    app.run(host='0.0.0.0', port=port)
