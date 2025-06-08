@@ -5,6 +5,7 @@ PyPDF2==3.0.1
 nltk==3.8.1
 numpy
 transformers
+torch
 pandas
 python-multipart==0.0.6
 werkzeug==2.3.7
